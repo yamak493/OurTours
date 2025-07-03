@@ -1,0 +1,10 @@
+name: OurTours
+version: '1.0-SNAPSHOT'
+main: net.enabify.ourTours.OurTours
+api-version: '1.21'
+folia-supported: true
+commands:
+  tour:
+    description: ツアーコマンド
+    usage: /<command> <code|next|previous>
+    permission: ourtours.tour
