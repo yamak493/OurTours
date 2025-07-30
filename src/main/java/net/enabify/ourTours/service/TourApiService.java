@@ -11,7 +11,7 @@ import java.util.Scanner;
 import java.util.concurrent.CompletableFuture;
 
 public class TourApiService {
-    private static final String API_URL = "https://made-by-free.com/tour.php?code=";
+    private static final String API_URL = "https://made-by-free.com/tour/?code=";
     private final Gson gson = new Gson();
 
     public CompletableFuture<TourApiResult> fetchTour(String tourCode) {
